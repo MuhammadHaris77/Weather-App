@@ -12,9 +12,54 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.main-div{
+  background-color: white;
+  display: inline;
+  color: black;
+
+
+  
+  width: 500px;
+  height: 300px;
+  box-shadow: 5px 5px 20px 2px black;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding:  15px;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+h1{
+  color: black;
+  font-size: 70px;
+  letter-spacing: 10px;
+}
+.input{
+  width: 700px;
+  outline: none;
+  text-align: center;
+  box-shadow: 5px 5px 20px 2px black;
+  border-radius: 20px;
+  font-size: 30px;
+  color: black;
+  
+  height: 50px;
+}
+.para{
+  width: 500px;
+  background-color: white;
+  color: black;
+  height: 200px;
+  box-shadow: 5px 5px 20px 2px black;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding:  30px;
+  font-size: 50px;
+  font-weight: bold;
+}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ebe0a1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +67,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url('https://www.chardandilminsternews.co.uk/resources/images/5311673.jpg?display=1&htype=0&type=responsive-gallery');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 .App-link {
